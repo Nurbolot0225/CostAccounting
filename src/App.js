@@ -15,7 +15,7 @@ function App(props) {
         },
         {
             date: new Date(2021, 4, 1),
-            description: 'Жинсы',
+            description: 'Pixel 6 pro',
             amount: 49.99,
         }
     ]
