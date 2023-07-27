@@ -1,5 +1,4 @@
 import "./CostFilter.css";
-import {useState} from "react";
 
 const CostsFilter = (props) => {
     const yearChangeHandler = (event) => {
