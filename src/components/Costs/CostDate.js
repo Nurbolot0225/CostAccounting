@@ -1,6 +1,6 @@
 import './CostDate.css'
 
-function CostDate() {
+const CostDate = () => {
     return (
         <div className='cost-date'>
             <div className='cost-date__month'>{new Date().toLocaleString('ru-RU', {

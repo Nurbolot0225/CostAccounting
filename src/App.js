@@ -1,7 +1,6 @@
-import Costs from "./components/Costs";
+import Costs from "./components/Costs/Costs";
 
-function App(props) {
-
+const App = () => {
     const costs = [
         {
             date: new Date(2021, 2, 12),
