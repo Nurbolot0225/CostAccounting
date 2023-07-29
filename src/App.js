@@ -34,7 +34,7 @@ const App = () => {
 
     return (
         <div>
-            <NewCost onAddCost={addCostHandler} />
+            <NewCost onAddCost={addCostHandler}/>
             <Costs costs={costs}/>
         </div>
     );

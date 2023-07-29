@@ -7,15 +7,15 @@ const CostForm = (props) => {
     const [inputAmount, setInputAmount] = useState('')
     const [inputDate, setInputDate] = useState('')
 
-    const nameChangeHandler = (event) =>  {
+    const nameChangeHandler = (event) => {
         setInputName(event.target.value)
     }
 
-    const amountChangeHandler = (event) =>  {
+    const amountChangeHandler = (event) => {
         setInputAmount(event.target.value)
     }
 
-    const dateChangeHandler = (event) =>  {
+    const dateChangeHandler = (event) => {
         setInputDate(event.target.value)
     }
 
@@ -39,15 +39,16 @@ const CostForm = (props) => {
             <div className='new-cost__controls'>
                 <div className='new-cost__control'>
                     <label>Название</label>
-                    <input type="text" value={inputName} onChange={nameChangeHandler} />
+                    <input type="text" value={inputName} onChange={nameChangeHandler}/>
                 </div>
                 <div className='new-cost__control'>
                     <label>Сумма</label>
-                    <input type="number" value={inputAmount} min='0.01' step='0.01' onChange={amountChangeHandler} />
+                    <input type="number" value={inputAmount} min='0.01' step='0.01' onChange={amountChangeHandler}/>
                 </div>
                 <div className='new-cost__control'>
                     <label>Дата</label>
-                    <input type="date" value={inputDate} min='2022-01-01' step='2023-01-31' onChange={dateChangeHandler} />
+                    <input type="date" value={inputDate} min='2022-01-01' step='2023-01-31'
+                           onChange={dateChangeHandler}/>
                 </div>
             </div>
             <div className='new-cost__actions'>
