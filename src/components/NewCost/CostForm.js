@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useState} from "react"
 import './CostForm.css'
 
 const CostForm = (props) => {
@@ -59,4 +59,4 @@ const CostForm = (props) => {
     );
 };
 
-export default CostForm;
+export default CostForm

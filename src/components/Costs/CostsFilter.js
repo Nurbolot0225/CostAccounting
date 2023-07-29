@@ -1,8 +1,8 @@
-import "./CostFilter.css";
+import "./CostsFilter.css"
 
 const CostsFilter = (props) => {
     const yearChangeHandler = (event) => {
-        props.onChangeYear(event.target.value);
+        props.onChangeYear(event.target.value)
     };
 
     return (
@@ -20,4 +20,4 @@ const CostsFilter = (props) => {
     );
 };
 
-export default CostsFilter;
+export default CostsFilter

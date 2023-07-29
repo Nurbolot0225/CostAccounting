@@ -1,9 +1,9 @@
-import CostItem from "./CostItem";
-import "./CostList.css";
+import CostItem from "./CostItem"
+import "./CostList.css"
 
 const CostList = (props) => {
     if (props.costs.length === 0) {
-        return <h2 className="cost-list__fallback">В Этом Году Расходов Нет</h2>;
+        return <h2 className="cost-list__fallback">В Этом Году Расходов Нет</h2>
     }
 
     return (
@@ -20,4 +20,4 @@ const CostList = (props) => {
     );
 };
 
-export default CostList;
+export default CostList
