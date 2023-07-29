@@ -8,12 +8,12 @@ const NewCost = (props) => {
     const saveCostDataHandler = (inputCostData) => {
         const costData = {
             ...inputCostData,
-            id: Math.random().toString(),
-        };
+            id: Math.random().toString()
+        }
 
-        props.onAddCost(costData);
-        setIsFormVisible(false);
-    };
+        props.onAddCost(costData)
+        setIsFormVisible(false)
+    }
 
     const inputCostDataHandler = () => {
         setIsFormVisible(true)
@@ -21,7 +21,7 @@ const NewCost = (props) => {
 
     const cancelCostHandler = () => {
         setIsFormVisible(false)
-    };
+    }
 
     return (
         <div className="new-cost">

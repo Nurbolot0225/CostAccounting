@@ -6,7 +6,7 @@ import CostList from "./CostList"
 import CostsDiagram from "./CostsDiagram"
 
 const Costs = (props) => {
-    const [selectedYear, setSelectedYear] = useState("2021")
+    const [selectedYear, setSelectedYear] = useState("2023")
 
     const yearChangeHandler = (year) => {
         setSelectedYear(year)
