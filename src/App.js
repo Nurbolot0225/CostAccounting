@@ -5,7 +5,7 @@ import {useState} from "react";
 const INITIAL_COSTS = [
     {
         id: 'c1',
-        date: new Date(2021, 2, 12),
+        date: new Date(2020, 2, 12),
         description: 'Монитор',
         amount: 999.99,
     },
@@ -17,14 +17,13 @@ const INITIAL_COSTS = [
     },
     {
         id: 'c3',
-        date: new Date(2021, 4, 1),
+        date: new Date(2021, 3, 1),
         description: 'Pixel 6 pro',
         amount: 49.99,
     }
 ]
 
 const App = () => {
-
     const [costs, setCosts] = useState(INITIAL_COSTS)
 
     const addCostHandler = (cost) => {
